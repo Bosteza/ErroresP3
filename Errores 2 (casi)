@@ -20,13 +20,11 @@ void areaFigura(float numero)
 	
 }
 
-int main(void)
-{
-	int num;
-	printf("Lado de un cuadrado:\n");
-	scanf("%d",&num);
-	printf("Perimetro:%f\n",perimetroFigura);
-	printf("Area:%f\n",areaFigura);
-	return 0;
-	
+int main(void) {
+    int num;
+    printf("Lado de un cuadrado:\n");
+    scanf("%d", &num);
+    perimetroFigura(num);
+    areaFigura(num);
+    return 0;
 }
