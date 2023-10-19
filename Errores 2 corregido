@@ -1,0 +1,26 @@
+#include<stdio.h>
+
+float perimetroFigura(float numero){
+
+	float perimetro;
+	perimetro=4*numero;
+	return perimetro;
+
+}
+
+float areaFigura(float numero)
+{
+	float area;
+	area=numero*numero;
+	return area;
+	
+}
+
+int main() {
+    int num;
+    printf("Lado de un cuadrado:\n");
+    scanf("%d", &num);
+    printf("P:%.2f\n",perimetroFigura(num));
+    printf("A:%.2f\n",areaFigura(num));
+    return 0;
+}
